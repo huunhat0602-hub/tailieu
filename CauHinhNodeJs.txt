@@ -1,0 +1,15 @@
+npm init
+--sau khi tao index.js->cmd
+npm install express
+----------------------
+npm install aws-sdk
+npm install express
+npm install body-parser
+-------------
+npm install cookie-parser//bỏ
+-----------------
+npm install ejs
+--------------------
+npm install formidable
+npm i -g npm
+npm i --save lodash

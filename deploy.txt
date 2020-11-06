@@ -1,0 +1,39 @@
+
+sudo yum update
+y
+sudo yum install git
+y
+sudo su -
+curl -sL https://rpm.nodesource.com/setup_11.x | bash -
+sudo yum install -y nodejs
+node --version
+npm --version
+sudo su - ec2-user
+--tao thu muc chua project
+mkdir olaz
+ls
+cd olaz
+git clone https://github.com/NguyenVanHoang19/OLAZ-Module1.git
+ls
+cd NguyenHuuNhat_GK
+ls
+
+--- install node-modules
+npm install
+-- di chuyeen den thu muc can pages chinh sua duong dan ket noi api server(trong thu muc client)
+cd src 
+ls
+cd pages
+ls
+-- chinh sua cacs file
+sudo nano DangKy.js 
+........
+-- ctrl + o để lưu lại file
+ctrl + x thoát
+
+---- start font-end 
+npm start
+
+
+xoa thu muc trong linux
+rm -rf dbstore/
